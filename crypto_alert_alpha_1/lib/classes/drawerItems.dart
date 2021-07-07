@@ -13,6 +13,8 @@ class DrawerItems {
       DrawerItem(title: 'Settings', icon: FontAwesomeIcons.cog);
   static const logout =
       DrawerItem(title: 'Logout', icon: FontAwesomeIcons.signOutAlt);
+  static const login =
+      DrawerItem(title: 'Login', icon: FontAwesomeIcons.signInAlt);
 
   static final List<DrawerItem> drawerItemList = [
     home,
@@ -20,6 +22,7 @@ class DrawerItems {
     about,
     help,
     settings,
-    logout
+    logout,
+    login
   ];
 }

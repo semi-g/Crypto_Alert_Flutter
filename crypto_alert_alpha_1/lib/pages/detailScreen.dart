@@ -1,7 +1,7 @@
 import 'package:crypto_alert_drawer/data/menu.dart';
 import 'package:flutter/material.dart';
 
-import 'classes/Coin.dart';
+import '../classes/Coin.dart';
 
 class DetailScreen extends StatelessWidget {
   final Coin coin;

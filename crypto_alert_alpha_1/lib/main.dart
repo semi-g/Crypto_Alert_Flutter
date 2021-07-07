@@ -6,12 +6,13 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'classes/Coin.dart';
 import 'classes/drawerItems.dart';
-import 'detailScreen.dart';
+import 'pages/detailScreen.dart';
 import 'drawerScreen.dart';
 import 'pages/homePage.dart';
 import 'pages/homeScreen.dart';
 import 'data/menu.dart';
 import 'pages/helpPage.dart';
+import 'pages/loginPage.dart';
 import 'pages/profilePage.dart';
 import 'pages/settingsPage.dart';
 import 'widgets/drawerWidget.dart';
@@ -177,6 +178,8 @@ class _MainScreenState extends State<MainScreen> {
         return HelpPage(openDrawer: openDrawer);
       case DrawerItems.settings:
         return SettingsPage(openDrawer: openDrawer);
+      case DrawerItems.login:
+        return LoginPage(openDrawer: openDrawer);
       default:
         return HomePage(openDrawer: openDrawer);
     }

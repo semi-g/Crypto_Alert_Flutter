@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:crypto_alert_drawer/classes/Coin.dart';
-import 'package:crypto_alert_drawer/detailScreen.dart';
+import 'package:crypto_alert_drawer/pages/detailScreen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
